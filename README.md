@@ -1,6 +1,9 @@
 # Introduction
 This is the unofficial Syncovery docker image, it's been compiled and prepared @ https://hub.docker.com/r/hlince/syncovery
 
+# Usage
+After accessing the interface the the user name is `default` and the password is `pass`.
+
 # Docker-Compose Sample
 The following sample is running against an unraid host. For other hosts it'll work the same but you'll likely want to change the mounts.
 
