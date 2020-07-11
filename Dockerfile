@@ -14,5 +14,8 @@ RUN mkdir /syncovery && \
     chmod +x /docker/entrypoint.sh
     
 EXPOSE 8999
+EXPOSE 8943
+
+VOLUME "/config" 
 
 ENTRYPOINT [ "/docker/entrypoint.sh" ]
