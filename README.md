@@ -22,7 +22,7 @@ services:
 Run Command docker-compose up -d
 Go to http://your-docker-host:8999
 Use the username default and the password pass
-```
 
 # Volume Mounts
-You can mount any volumes you want to work with however this container needs one specific mount to store its configuration. Please mount a volume @ /config for persistent configuration. 
+
+You can mount any volumes you want to work with however this container needs one specific mount to store its configuration. Please mount a volume @ `/config` for persistent configuration. 
