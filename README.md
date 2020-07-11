@@ -21,6 +21,8 @@ services:
     - /mnt/user/tmp/syncovery:/tmp
     ports:
     - 8999:8999
+    - 8943:8943
+
 ```
 Run Command docker-compose up -d
 Go to http://your-docker-host:8999
